@@ -11,6 +11,7 @@
     <h1>WELCOME</h1>
     <div class="form">
       <form action="">
+        <!-- You have to cancel de action from here -->
         <div class="signin">
           <h2>Sign in:</h2>
         </div>
@@ -32,6 +33,7 @@
         </div>
         <br />
         <div class="bottom">
+          <!-- You don't use this class bottom in CSS.  -->
           <div class="tc">
             <a href="">Terms and conditions</a>
           </div>
@@ -41,3 +43,32 @@
     </div>
   </body>
 </html>
+
+
+
+<!-- clenear code for body-->
+<body>
+  <h1>WELCOME</h1>
+    <form class="form">
+      <div>
+        <h2>Sign in:</h2>
+      </div>
+      <div>
+        <p>Email</p>
+        <input type="email" name="Email" />
+      </div>
+      <div>
+        <p>Password</p>
+        <input type="password" name="Password" minlength="5" />
+      </div>
+      <div>
+        <button type="submit">SignIn</button>
+      </div>
+      <div>
+        <div class="tc">
+          <a href="">Terms and conditions</a>
+        </div>
+        <div class="abt"><a href="">About</a></div>
+      </div>
+    </form>
+</body>
